@@ -13,9 +13,25 @@
   <button onclick="setCambiar()">Presionar aqui!</button>
 
   <script>
+  
+    var ultima="paisaje1.jpg"// Cambiamos la propiedad src de la imagen con id "image"function setCambiar() {
     // Cambiamos la propiedad src de la imagen con id "image"
     function setCambiar() {
-      document.getElementById("image").src = "paisaje2.jpg";
+      
+
+        if (ultima==="paisaje1.jpg"){
+            document.getElementById("image").src = "paisaje2.jpg";
+            ultima="paisaje2.jpg";
+        }else{
+            document.getElementById("image").src = "paisaje1.jpg";
+            ultima="paisaje1.jpg"
+  
+  }
+}
+       
+      
+      
+      if 
     }
   </script>
 
